@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
 
 ▶ Press **Play**
 
-Player should now move in 4 directions
+Player should now move in 4 directions  
 Player can still leave the screen — this is expected
 
 ---
