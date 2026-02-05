@@ -1,7 +1,7 @@
 # MIDNIGHT LARK: Unity Game Development Foundations
 ## Class 3 — Player Movement (4-Direction) + Screen Clamp
 
-### 📌 Purpose of This Guide (Read First)
+### Purpose of This Guide (Read First)
 This guide is written **specifically for students who were absent in Class 3**.
 
 If you follow this document step by step **without skipping anything**, you will be able to:
@@ -9,11 +9,11 @@ If you follow this document step by step **without skipping anything**, you will
 - **Implement exactly the same result** as done in the live class
 - End with a **working Player movement system** with proper screen boundaries
 
-👉 This guide is **self-sufficient**. No prior explanation from the class is required.
+This guide is **self-sufficient**. No prior explanation from the class is required.
 
 ---
 
-### 🤝 If You Get Stuck
+### If You Get Stuck
 If at any point you face a problem:
 1. First, **contact classmates who were present in Class 3**
 2. If the issue is **not solved**, then **connect with the instructors**
@@ -22,24 +22,16 @@ This order is important.
 
 ---
 
-## 🎯 Class 3 Final Goal (What You Must Achieve)
+## Class 3 Final Goal (What You Must Achieve)
 By the end of this guide, your project must meet **all** of these conditions:
 
 - Player moves in **4 directions** (Up, Down, Left, Right)
 - Movement speed is **constant** (no acceleration)
 - Player **cannot leave the screen** (position is clamped)
-- ❌ No Rigidbody
-- ❌ No physics
-- ❌ No camera movement
 
 ---
 
-## ⏱ Estimated Time
-Total time required: **~30–40 minutes**
-
----
-
-## 1️⃣ Open the Correct Project and Scene
+## Open the Correct Project and Scene
 
 1. Open **Unity Hub**
 2. Open your existing project from earlier classes
@@ -47,12 +39,12 @@ Total time required: **~30–40 minutes**
    - `Scenes → Starflight_Main`
 4. Press ▶ **Play** once
 
-✅ If the game runs without red errors in the Console, continue.
-❌ If there are red errors, **fix them first**.
+If the game runs without red errors in the Console, continue.
+If there are red errors, **fix them first**.
 
 ---
 
-## 2️⃣ Check the Player GameObject
+## Check the Player GameObject
 
 1. In the **Hierarchy**, click on **Player**
 2. In the **Inspector**, confirm:
@@ -65,12 +57,12 @@ Total time required: **~30–40 minutes**
 
 ---
 
-## 3️⃣ Create the Movement Script
+## Create the Movement Script
 
 ### Step 3.1 — Create Script
 
 1. In the **Project** window:
-   - Right-click → Create → **C# Script**
+   - Right-click ont **Scripts** → Click **Create** → Click **Scripting** → Click **Empty C# Script**
 2. Name it exactly:
    ```
    PlayerController
@@ -115,19 +107,19 @@ public class PlayerController : MonoBehaviour
 
 ---
 
-## 4️⃣ Attach Script to Player
+## Attach Script to Player
 
 1. Select **Player** in Hierarchy
-2. Drag **PlayerController** script onto the Player
+2. Drag **PlayerController** script onto the Player (or Click **Player** from Higherarchy then **Add Component** from Insperctor and **PlayerController** from dropdown list)
 
 ▶ Press **Play**
 
-✅ Player should now move in 4 directions
-❌ Player can still leave the screen — this is expected
+Player should now move in 4 directions
+Player can still leave the screen — this is expected
 
 ---
 
-## 5️⃣ Add Screen Clamp (Boundary Lock)
+## Add Screen Clamp (Boundary Lock)
 
 Now we will stop the player from leaving the screen.
 
@@ -181,7 +173,7 @@ So:
 
 ---
 
-## 6️⃣ Test and Adjust Bounds
+## Test and Adjust Bounds
 
 1. Press ▶ **Play**
 2. Move player to screen edges
@@ -189,22 +181,20 @@ So:
    - Adjust values in Inspector:
      - `minX`, `maxX`, `minY`, `maxY`
 
-🎯 Goal: Player stays fully visible inside Game view
+Goal: Player stays fully visible inside Game view
 
 ---
 
-## ✅ Final Checklist (Must Match Class 3)
+## Final Checklist (Must Match Class 3)
 
 ✔ 4-direction movement
 ✔ Constant speed
-✔ No Rigidbody
-✔ No physics
 ✔ Player locked inside screen
 ✔ Clean, readable Inspector headers
 
 ---
 
-### 🚀 You Are Now Aligned with Class 3
+### You Are Now Aligned with Class 3
 If you have completed everything above successfully, **you are fully caught up with Class 3** of:
 
 **MIDNIGHT LARK: Unity Game Development Foundations**
