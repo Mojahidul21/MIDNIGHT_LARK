@@ -187,9 +187,9 @@ Goal: Player stays fully visible inside Game view
 
 ## Final Checklist (Must Match Class 3)
 
-✔ 4-direction movement
-✔ Constant speed
-✔ Player locked inside screen
+✔ 4-direction movement  
+✔ Constant speed  
+✔ Player locked inside screen  
 ✔ Clean, readable Inspector headers
 
 ---
