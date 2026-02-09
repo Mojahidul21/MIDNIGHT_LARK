@@ -1,4 +1,4 @@
-# Code Comfort Companion–1
+# Coding Comfort Companion–1
 ## An Extensive, Code-Heavy Practice Companion for Building Real Coding Confidence
 
 ---
